@@ -1,0 +1,16 @@
+
+#mystat_div
+{
+   text-align: center;
+   margin-bottom: 2.5em;
+}
+#canvas
+{
+   border: 1px solid #aaa;
+   background-image: url('images/cardbg.jpg');
+   -moz-box-shadow: 3px 3px 8px #222;
+   -webkit-box-shadow: 3px 3px 8px #222;
+   box-shadow: 3px 3px 8px #222;
+}
+
+      
