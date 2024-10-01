@@ -1,12 +1,8 @@
 title: pro-spins.com
-subtitle: probing spin-polarized initial state through chiral organic molecules
+subtitle: probing spin-polarized initial states through chiral organic molecules
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Uni gegen Rechts ist ein Zusammenschluss von Mitarbeiter*innen und Student*innen
-  der Friedrich-Schiller-Universität Jena, die mit wachsender Sorge den Aufstieg des
-  Rechtsextremismus in unserer Gesellschaft sehen. Diese Entwicklung bedroht die
-  demokratischen Werte, für die unsere Universität steht: Toleranz, Vielfalt,
-  wissenschaftliche Freiheit und kritisches Denken.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pro-spins.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -47,35 +43,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 defaults:
   # _posts
