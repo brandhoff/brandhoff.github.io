@@ -7,12 +7,23 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pro-spins.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
-minimal_mistakes_skin: default
+#minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+
 # Outputting
 #permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -34,14 +45,7 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+
 
 footer:
   links:
@@ -55,13 +59,9 @@ defaults:
       path: ""
     values:
       sidebar:
-        - title: "Nächstes Treffen"
-          text: 9\. Oktober, 16:45 Uhr, auf dem Campus vor der Mensa
-        - title: "Veranstaltungen"
-          text: >
-            **4. September, 12:00 Uhr, Ernst-Abbe-Platz**\\
+        - title: "Latest Publication"
+          text: No current Pulbications
 
-            <a href="/2024/08/17/aktive-mittagspause.html">Aktive Mittagspause</a>
   - scope:
       path: ""
       type: posts

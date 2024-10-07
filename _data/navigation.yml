@@ -1,4 +1,6 @@
 main:
+  - title: Start
+    url: /
   - title: "Publications"
     url: /publications/
   - title: "About"
