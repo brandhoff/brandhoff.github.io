@@ -17,8 +17,8 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-logo: "/assets/images/logo.png"
-
+logo: "/assets/images/Kolibri.png"
+baseurl: ""
 include:
   - _pages
 
